@@ -1,0 +1,29 @@
+.red {
+    background-color: brown;
+}
+.btnChecked{
+    background-color: rgba(19, 104, 75, 0.678);
+    color: #fff;
+    border: none;
+    border-radius: 0%;
+    width: 150px;
+    height: 200x;
+    cursor: pointer;
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.btnChecked:hover{
+    border-radius: 25px;
+    background-color: #000;
+    color: rgb(10, 238, 143);
+    transition: 1.5s;
+    font-weight: bold;
+}
+#container{
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
